@@ -1,0 +1,127 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: rgb(85, 84, 26);
+
+}
+
+
+/* ---COMIENZO HEADER------- */
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa500;
+    flex-direction: row;
+    padding: 50px;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo p {
+    margin: 10px;
+
+}
+
+.df-ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.df-ul li {
+    margin: 10px;
+}
+
+.mym {
+    color: #ffffff;
+    
+}
+
+/*---------FIN HEADER---------- */
+
+/* -----COMIENZO DEL MAIN------- */
+.min-height {
+    min-height: 80vh;
+    background:  brown;
+
+}
+
+h2{
+
+    background-color: yellow;
+    height: 500xp;
+    width: 1150px;;;
+    border: 2px solid black;
+    
+    
+}
+
+
+
+
+contendor{
+    
+    border: 3px solid #fff;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* -----FIN DEL MAIN----------- */
+
+/* -----COMIENZO DE FOOTER------*/
+.bg-footer {
+    background-color: #ffa500;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.type-white {
+    color: #ffffff;
+   
+}
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all ease;
+}
+
+.yang:hover {
+    color: #000000;
+}
+
+/* -----FIN DE FOOTER--------- */
+
+
+
